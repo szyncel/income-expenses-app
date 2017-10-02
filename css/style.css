@@ -1,0 +1,62 @@
+
+.greenThead{
+    color: white;
+    background-color: #17B117;
+}
+
+.redThead{
+    color: white;
+    background-color: #D41E1E;
+}
+
+.jumbotron{
+    padding: 20px;
+    margin-bottom: 0;
+    /* background-image: url('https://thumbs.dreamstime.com/b/money-dollar-wallpaper-11800609.jpg');
+    background-repeat:repeat-x; */
+}
+
+.form-control, .custom-select, .btn{
+    border-radius: 0;
+}
+
+.form{
+    padding: 15px;
+    background-color: silver;
+    margin-bottom: 20px;
+}
+
+.incomeOutput, .expensesOutput{
+        color: white;
+        background-color: #17B117;
+        border-color: #c3e6cb;
+        width: 30%;
+
+        padding: .75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+       
+}
+
+.expensesOutput{
+    background-color: #D41E1E;
+}
+
+#income, #expenses{
+    float: right;
+}
+
+.positive{
+    color: #17B117;
+}
+
+.negative{
+    color: #D41E1E;
+}
+
+.invalid, .invalid:focus{
+    color: #D41E1E;
+    border: 1px solid #D41E1E;
+   
+}
+
