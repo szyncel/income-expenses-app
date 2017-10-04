@@ -12,8 +12,9 @@
 .jumbotron{
     padding: 20px;
     margin-bottom: 0;
-    /* background-image: url('https://thumbs.dreamstime.com/b/money-dollar-wallpaper-11800609.jpg');
-    background-repeat:repeat-x; */
+    background-image: url('background.jpg');
+    background-position: center;
+
 }
 
 .form-control, .custom-select, .btn{
@@ -22,8 +23,11 @@
 
 .form{
     padding: 15px;
-    background-color: silver;
+    background-color: #C0C0C0;
     margin-bottom: 20px;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
 }
 
 .incomeOutput, .expensesOutput{
